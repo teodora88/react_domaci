@@ -44,3 +44,40 @@ body{
   color: #fff;
   transform: scale(1.1);
 }
+
+.centerArea{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+} 
+
+.texts{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+
+.text1{
+  color: black;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text2{
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
